@@ -23,10 +23,5 @@
     "prepare": "husky install",
     "start:dev": "tsnd --respawn --transpile-only src/",
     "test": "jest"
-  },
-  "lint-staged": {
-    "*.ts": [
-      "yarn eslint --fix src/*.ts "
-    ]
   }
 }
