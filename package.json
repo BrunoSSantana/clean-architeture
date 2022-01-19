@@ -21,7 +21,10 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start:dev": "tsnd --respawn --transpile-only src/",
+    "start:dev": "tsnd --respawn --transpile-only src/server.ts",
     "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
